@@ -9,4 +9,8 @@ public enum ItemType {
     ItemType(String description) {
         Description = description;
     }
+
+    public String getDescription() {
+        return Description;
+    }
 }
